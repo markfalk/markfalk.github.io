@@ -1,0 +1,35 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+ :root {
+  --ifm-color-primary: #2563eb; /* blue-600 */
+  --ifm-color-primary-dark: #1d4ed8; /* blue-700 */
+  --ifm-color-primary-darker: #1e40af; /* blue-800 */
+  --ifm-color-primary-darkest: #1e3a8a; /* blue-900 */
+  --ifm-color-primary-light: #3b82f6; /* blue-500 */
+  --ifm-color-primary-lighter: #60a5fa; /* blue-400 */
+  --ifm-color-primary-lightest: #93c5fd; /* blue-300 */
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.07);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #3b82f6; /* blue-500 */
+  --ifm-color-primary-dark: #2563eb; /* blue-600 */
+  --ifm-color-primary-darker: #1d4ed8; /* blue-700 */
+  --ifm-color-primary-darkest: #1e40af; /* blue-800 */
+  --ifm-color-primary-light: #60a5fa; /* blue-400 */
+  --ifm-color-primary-lighter: #93c5fd; /* blue-300 */
+  --ifm-color-primary-lightest: #bfdbfe; /* blue-200 */
+
+  --docusaurus-highlighted-code-line-bg: rgba(30, 58, 138, 0.3); /* deep blue-ish */
+  --ifm-background-color: #0d1117; /* GitHub dark mode BG */
+  --ifm-navbar-background-color: #161b22;
+  --ifm-footer-background-color: #161b22;
+  --ifm-color-content: #c9d1d9; /* subtle light text */
+
+}

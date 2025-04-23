@@ -1,0 +1,9 @@
+mark:
+  name: Mark Falk
+  title: Principal SRE and Infrastructure Engineer
+  url: https://github.com/markfalk
+  image_url: https://github.com/markfalk.png
+  page: true
+  socials:
+    github: markfalk
+    bluesky: markfalk.com
