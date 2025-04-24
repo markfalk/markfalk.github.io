@@ -2,7 +2,7 @@
 
 ## Clone the repository
 
-Clone the repository with the following command:
+Clone the [GitHub repository](https://github.com/markfalk/stalwart-mail-wgproxy) with the following command:
 
 ```bash
 git clone https://github.com/markfalk/stalwart-mail-wgproxy.git
