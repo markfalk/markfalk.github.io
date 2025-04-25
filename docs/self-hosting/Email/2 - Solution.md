@@ -8,7 +8,7 @@ import ThemedImage from '@theme/ThemedImage';
     light: useBaseUrl('/img/self-hosted-mail-light.svg'),
     dark: useBaseUrl('/img/self-hosted-mail-dark.svg'),
   }}
-  alt="Themed Imasgsess"
+  alt="Themed Images"
 />
 
 We run the Stalwart mail server and BIND on our self-hosted server. It connects via WireGuard to an AWS EC2 instance with a public Elastic IP.
