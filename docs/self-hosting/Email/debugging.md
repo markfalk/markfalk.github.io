@@ -1,3 +1,7 @@
+---
+id: self-hosting-mail-debug
+slug: /self-hosting-mail/debug
+---
 # debugging
 
 If your [sending](Step%208%20-%20Test%20sending%20and%20receiving.md#test-email-sending) and [receiving](Step%208%20-%20Test%20sending%20and%20receiving.md#test-email-reception) tests are failing follow these steps to identify the issue.

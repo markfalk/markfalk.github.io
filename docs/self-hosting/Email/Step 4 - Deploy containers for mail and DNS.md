@@ -1,4 +1,7 @@
-
+---
+id: self-hosting-mail-containers
+slug: /self-hosting-mail/containers
+---
 # Step 4 - Deploy containers for Wireguard, Stalwart, and BIND
 
 We can now deploy the Stalwart mail server and BIND 9 containers to host our DNS and email, along with WireGuard to proxy the connections from the Internet through the Elastic IP in AWS.

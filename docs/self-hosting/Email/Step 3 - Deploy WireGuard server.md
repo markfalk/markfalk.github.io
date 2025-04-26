@@ -1,3 +1,7 @@
+---
+id: self-hosting-mail-wireguard
+slug: /self-hosting-mail/wireguard
+---
 # Step 3 - Deploy WireGuard server
 
 With the `terraform.tfvars` file properly populated it is time to deploy

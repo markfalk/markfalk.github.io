@@ -1,3 +1,7 @@
+---
+id: self-hosting-mail-unblock
+slug: /self-hosting-mail/unblock
+---
 # Step 6 - Unblock port 25 access
 
 We need to inform AWS that we're standing up a mail server for our personal user and that

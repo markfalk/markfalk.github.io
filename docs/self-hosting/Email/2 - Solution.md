@@ -1,3 +1,7 @@
+---
+id: self-hosting-mail-solution
+slug: /self-hosting-mail/solution
+---
 # The Solution
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

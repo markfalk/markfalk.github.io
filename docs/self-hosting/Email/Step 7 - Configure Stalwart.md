@@ -1,3 +1,7 @@
+---
+id: self-hosting-mail-config-stalwart
+slug: /self-hosting-mail/config-stalwart
+---
 # Step 7 - Configure Stalwart
 
 Congratulations, you can now configure your mail server! Use a browser to access the Stalwart login page. `https://<YOUR DOMAIN>`. You will receive an error about the self-signed certificate used on initial startup. You will fix that by setting up a proper domain.

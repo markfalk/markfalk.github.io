@@ -1,3 +1,7 @@
+---
+id: self-hosting-mail-test
+slug: /self-hosting-mail/test
+---
 # Step 8 - Test sending and receiving
 
 To test that everything is working as it should we can test mail sending and receiving using a number of online tools.

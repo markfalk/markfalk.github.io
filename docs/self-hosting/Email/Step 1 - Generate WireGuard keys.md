@@ -1,3 +1,7 @@
+---
+id: self-hosting-mail-gen-keys
+slug: /self-hosting-mail/gen-keys
+---
 # Step 1 - Clone Repository and Generate WireGuard Key Pairs
 
 ## Clone the repository

@@ -1,3 +1,7 @@
+---
+id: self-hosting-mail-requirements
+slug: /self-hosting-mail/requirements
+---
 # Requirements and Dependencies
 
 To implement this solution you will need a server to run the docker images and a client system to

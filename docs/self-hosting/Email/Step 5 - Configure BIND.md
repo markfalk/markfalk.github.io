@@ -1,3 +1,7 @@
+---
+id: self-hosting-mail-bind
+slug: /self-hosting-mail/bind
+---
 # Step 5 - Configure BIND
 
 Using the web terminal update the permissions on the `cache` directory and create the `log` directory.

@@ -1,3 +1,7 @@
+---
+id: self-hosting-mail-aws-infrastructure
+slug: /self-hosting-mail/aws-infrastructure
+---
 # Step 2 - Setup AWS infrastructure
 
 This project uses [Terraform](https://www.terraform.io/) to deploy the AWS infrastructure. The Terraform will deploy the following resources:
