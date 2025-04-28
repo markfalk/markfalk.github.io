@@ -27,3 +27,13 @@ ci-cd:
   label: ci-cd
   permalink: /ci-cd
   description: CD/CD tag description
+
+bluesky:
+  label: bluesky
+  permalink: /bluesky
+  description: Bluesky tag description
+
+stalwart:
+  label: stalwart
+  permalink: /stalwart
+  description: Stalwart tag description
