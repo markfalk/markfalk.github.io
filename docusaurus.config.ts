@@ -154,6 +154,26 @@ const config: Config = {
     mermaid: true,
   },
   themes: ['@docusaurus/theme-mermaid'],
+  plugins: [
+    async function myPlugin(context, options) {
+      return {
+        name: 'custom-meta-tags',
+        injectHtmlTags() {
+          return {
+            headTags: [
+              {
+                tagName: 'meta',
+                attributes: {
+                  name: 'google-site-verification',
+                  content: '74K8gH24pwiVfErmqrneIteAIeZk0Mj-3ZZCUiAznO8',
+                },
+              },
+            ],
+          };
+        },
+      };
+    },
+  ],
 };
 
 export default config;
