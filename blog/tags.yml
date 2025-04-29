@@ -33,6 +33,11 @@ bluesky:
   permalink: /bluesky
   description: Bluesky tag description
 
+social:
+  label: social
+  permalink: /social
+  description: Social tag description
+
 stalwart:
   label: stalwart
   permalink: /stalwart

@@ -91,9 +91,15 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'manualSidebar',
+          sidebarId: 'selfHostingSidebar',
           position: 'left',
           label: 'Self-Hosting',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'interestingTechSidebar',
+          position: 'left',
+          label: 'Interesting Tech',
         },
         // {
         //   type: 'docSidebar',
@@ -130,6 +136,10 @@ const config: Config = {
             {
               label: 'Self-Hosting',
               to: '/docs/self-hosting/',
+            },
+            {
+              label: 'Interesting Tech',
+              to: '/docs/interesting-tech',
             },
           ],
         },

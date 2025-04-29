@@ -2,7 +2,7 @@
 slug: bluesky-pds-setup-notes-unraid
 title: Bluesky PDS Setup Notes - Unraid
 authors: [mark]
-tags: [bluesky, ci-cd]
+tags: [bluesky, social]
 ---
 
 Getting Bluesky PDS set up took a bit more work then I would have liked. The software is
