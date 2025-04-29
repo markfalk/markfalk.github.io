@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://markfalk.github.io/sitemap.xml

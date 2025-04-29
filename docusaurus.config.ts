@@ -70,13 +70,18 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        sitemap: {
+          changefreq: 'daily',
+          priority: 0.5,
+          filename: 'sitemap.xml',
+        },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-media-card.png',
     navbar: {
       title: 'Mark Falk',
       logo: {
@@ -149,6 +154,21 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
       additionalLanguages: ['bash'],
     },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
+    metadata: [
+      { name: 'keywords', content: 'Mark Falk, SRE, DevOps, Infrastructure, Self-Hosting, Systems Administration' },
+      { name: 'author', content: 'Mark Falk' },
+      { name: 'description', content: 'Thoughts and projects by Mark Falk, technologist, SRE, and self-hosting enthusiast.' },
+      { property: 'og:title', content: 'Mark Falk - Technologist, SRE, and Self-Hosting Enthusiast' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:url', content: 'https://markfalk.github.io/' },
+      { property: 'og:description', content: 'Exploring infrastructure, reliability, and self-hosting.' },
+      { property: 'og:image', content: 'https://markfalk.github.io/img/social-media-card.png  ' },
+    ],
   } satisfies Preset.ThemeConfig,
   markdown: {
     mermaid: true,
