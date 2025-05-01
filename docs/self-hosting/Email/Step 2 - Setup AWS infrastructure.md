@@ -1,6 +1,8 @@
 ---
 id: self-hosting-mail-aws-infrastructure
 slug: /self-hosting-mail/aws-infrastructure
+title: Setup AWS Infrastructure
+description: "Complete guide to deploying AWS infrastructure for self-hosted email using Terraform. Includes VPC setup, EC2 instance configuration, security groups, and elastic IP configuration."
 ---
 # Step 2 - Setup AWS infrastructure
 

@@ -1,6 +1,8 @@
 ---
 id: self-hosting-mail-test
 slug: /self-hosting-mail/test
+title: Test Email Server
+description: "Complete testing guide for your self-hosted email server. Includes sending/receiving tests, spam filter validation, and mail client configuration verification."
 ---
 # Step 8 - Test sending and receiving
 

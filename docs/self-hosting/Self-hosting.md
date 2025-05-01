@@ -1,3 +1,7 @@
+---
+title: Self-Hosting Guide
+description: "Complete guide to self-hosting services at home. Covers email servers, media streaming, home automation, and network security. Includes best practices and infrastructure setup."
+---
 # Self-Hosting
 
 Self-hosting is one way of taking control of your digital life. Like cutting the cord

@@ -1,6 +1,8 @@
 ---
 id: self-hosting-mail-containers
 slug: /self-hosting-mail/containers
+title: Deploy Mail & DNS Containers
+description: "Guide to deploying Stalwart Mail Server and BIND DNS containers. Includes volume setup, networking configuration, and container orchestration setup."
 ---
 # Step 4 - Deploy containers for Wireguard, Stalwart, and BIND
 
@@ -105,7 +107,7 @@ import UnraidWebTerminal from './assets/unraid-web-terminal.png';
 #### Ping the WireGuard server over the tunnel
 
 Using the Unraid terminal (that's the `>_` under the server name)
-<img src={UnraidWebTerminal} style={{width: 200}} />
+<img src={UnraidWebTerminal} alt="Unraid Web Terminal Icon Location" style={{width: 200}} />
 run `docker exec wireguard ping 192.168.128.1`
 Confirm you are getting ping responses.
 

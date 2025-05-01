@@ -1,6 +1,7 @@
 ---
 slug: bluesky-pds-setup-notes-unraid
 title: Bluesky PDS Setup Notes - Unraid
+description: "Comprehensive guide to setting up a Bluesky Personal Data Server (PDS) on Unraid. Includes Docker configuration, SWAG proxy setup, DNS records, and troubleshooting common issues."
 authors: [mark]
 tags: [bluesky, social]
 ---

@@ -1,6 +1,8 @@
 ---
 id: self-hosting-mail-unblock
 slug: /self-hosting-mail/unblock
+title: Unblock Port 25 Access
+description: "Guide to unblocking AWS EC2 port 25 for email server setup. Learn how to request AWS limits increase, verify port access, and troubleshoot common connectivity issues."
 ---
 # Step 6 - Unblock port 25 access
 

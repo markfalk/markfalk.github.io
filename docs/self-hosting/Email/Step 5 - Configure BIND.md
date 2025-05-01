@@ -1,6 +1,8 @@
 ---
 id: self-hosting-mail-bind
 slug: /self-hosting-mail/bind
+title: Configure BIND DNS
+description: "Learn how to configure BIND DNS server for self-hosted email. Includes zone file configuration, MX record setup, SPF records, and DKIM integration for proper email delivery."
 ---
 # Step 5 - Configure BIND
 

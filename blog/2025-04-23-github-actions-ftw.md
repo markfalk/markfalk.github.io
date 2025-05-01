@@ -1,6 +1,7 @@
 ---
 slug: github-actions-ftw
 title: GitHub Actions FTW?
+description: "Exploring GitHub Actions for automating build and deployment workflows. Learn how to set up CI/CD pipelines for static sites using GitHub Actions and GitHub Pages."
 authors: [mark]
 tags: [github, ci-cd]
 ---

@@ -1,6 +1,8 @@
 ---
 id: self-hosting-mail-wireguard
 slug: /self-hosting-mail/wireguard
+title: Deploy WireGuard Server
+description: "Step-by-step guide to deploying a WireGuard VPN server on AWS EC2. Includes Docker container setup, configuration file management, and connection testing."
 ---
 # Step 3 - Deploy WireGuard server
 

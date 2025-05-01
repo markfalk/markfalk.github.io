@@ -1,6 +1,8 @@
 ---
 id: self-hosting-mail-gen-keys
 slug: /self-hosting-mail/gen-keys
+title: Generate WireGuard Keys
+description: "Step-by-step guide to generating WireGuard key pairs for secure email server setup. Learn how to create and manage server and client keys using Docker containers for maximum security."
 ---
 # Step 1 - Clone Repository and Generate WireGuard Key Pairs
 

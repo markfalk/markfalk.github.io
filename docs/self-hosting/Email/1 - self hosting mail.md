@@ -4,6 +4,8 @@ slug: /self-hosting-mail
 # Display h2 to h5 headings
 toc_min_heading_level: 2
 toc_max_heading_level: 5
+title: Self-Hosting Email Overview
+description: "Comprehensive guide to self-hosting your own email server using Stalwart Mail Server, WireGuard VPN, and AWS infrastructure. Learn about requirements, security, and setup."
 ---
 # Self-hosting a mail server
 

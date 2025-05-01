@@ -1,39 +1,14 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
-
-export default function Home(): JSX.Element {
+export default function Home(): ReactNode {
   return (
     <Layout
-      title="Home"
-      description="Mark Falk | Technologist, SRE, and Self-Hosting Enthusiast"
+      title="Mark Falk's Technical Blog"
+      description="Welcome to Mark Falk's technical blog. Explore insights about Site Reliability Engineering, self-hosting solutions, infrastructure automation, and DevOps best practices from an experienced SRE."
     >
       <main className={clsx('hero', styles.heroBanner)}>
         <div className="container">
@@ -73,20 +48,20 @@ export default function Home(): JSX.Element {
         </section>
 
         <section className="margin-top--lg">
-  <h2>👔 About Me</h2>
-  <p>
-    I'm Mark Falk, a Site Reliability Engineer with a background in DevOps, Networking, and Systems Administration.
-    While I'm relatively new to the formal title of SRE, I've spent years designing and operating reliable production systems
-    with a strong focus on observability, automation, and reducing operational toil.
-  </p>
-  <p>
-  I got my start writing software in C and Java, and I've always been drawn to understanding how things work under the hood—whether it's the kernel, a network protocol, or the internals of a database. 
-  That curiosity has shaped the way I approach systems: with attention to performance, reliability, and the often-overlooked details that make things tick.
-</p>  <p>
-    This site serves as a living record of my technical journey—documenting what I'm building, how I'm thinking, and what I'm learning along the way.
-    I'm currently exploring new opportunities and open to roles that align with my values and skills.
-  </p>
-</section>
+          <h2>👔 About Me</h2>
+          <p>
+            I'm Mark Falk, a Site Reliability Engineer with a background in DevOps, networking, and software development.
+            While I'm relatively new to the formal title of SRE, I've spent years designing and operating reliable production systems
+            with a strong focus on observability, automation, and reducing operational toil.
+          </p>
+          <p>
+            I got my start writing software in C and Java, and I've always been drawn to understanding how things work under the hood—whether it's the kernel, a network protocol, or the internals of a database.
+            That curiosity has shaped the way I approach systems: with attention to performance, reliability, and the often-overlooked details that make things tick.
+          </p>  <p>
+            This site serves as a living record of my technical journey—documenting what I'm building, how I'm thinking, and what I'm learning along the way.
+            I'm currently exploring new opportunities and open to roles that align with my values and skills.
+          </p>
+        </section>
       </div>
     </Layout>
   );

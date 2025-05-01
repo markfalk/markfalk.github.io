@@ -1,6 +1,8 @@
 ---
 id: self-hosting-mail-requirements
 slug: /self-hosting-mail/requirements
+title: Requirements
+description: "Essential requirements for self-hosting email, including domain setup, AWS account configuration, hardware specifications, and networking prerequisites."
 ---
 # Requirements and Dependencies
 

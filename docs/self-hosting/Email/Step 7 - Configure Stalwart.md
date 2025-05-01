@@ -1,6 +1,8 @@
 ---
 id: self-hosting-mail-config-stalwart
 slug: /self-hosting-mail/config-stalwart
+title: Configure Stalwart Mail Server
+description: "Comprehensive guide to configuring Stalwart Mail Server. Learn how to set up domains, TLS, user accounts, and email clients. Includes troubleshooting steps and detailed MacOS Mail setup instructions."
 ---
 # Step 7 - Configure Stalwart
 

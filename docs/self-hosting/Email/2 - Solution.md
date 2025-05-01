@@ -1,6 +1,8 @@
 ---
 id: self-hosting-mail-solution
 slug: /self-hosting-mail/solution
+title: The Solution
+description: "Overview of the self-hosted email server architecture using Stalwart Mail Server, WireGuard VPN, and AWS. Includes infrastructure diagrams and component explanations."
 ---
 # The Solution
 

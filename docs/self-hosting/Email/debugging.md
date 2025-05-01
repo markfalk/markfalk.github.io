@@ -1,6 +1,8 @@
 ---
 id: self-hosting-mail-debug
 slug: /self-hosting-mail/debug
+title: Debugging Guide
+description: "Comprehensive troubleshooting guide for self-hosted email servers. Covers common issues with Stalwart Mail Server, WireGuard connectivity, and DNS configuration."
 ---
 # debugging
 
