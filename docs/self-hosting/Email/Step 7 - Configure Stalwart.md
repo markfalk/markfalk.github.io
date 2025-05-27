@@ -10,9 +10,9 @@ Congratulations, you can now configure your mail server! Use a browser to access
 
 The official site covers the initial configuration of the application.
 
-* [https://stalw.art/docs/install/docker#log-in-to-the-web-interface](https://stalw.art/docs/install/docker#log-in-to-the-web-interface)
-* [Configure your hostname and domain](https://stalw.art/docs/install/docker/#configure-your-hostname-and-domain)
-* [Enable TLS](https://stalw.art/docs/install/docker/#configure-your-hostname-and-domain)
+* [Logging in to the web interface](https://stalw.art/docs/install/platform/docker#log-in-to-the-web-interface)
+* [Configure your hostname and domain](https://stalw.art/docs/install/platform/docker#configure-your-hostname-and-domain)
+* [Enable TLS](https://stalw.art/docs/install/platform/docker#enable-tls)
 
 For a simple installation handling email for only my family and associated businesses using the default settings for storage and auth (RocksDB and internal authentication) has worked well.
 
