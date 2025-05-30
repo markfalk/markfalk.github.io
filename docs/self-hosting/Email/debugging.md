@@ -68,3 +68,23 @@ interface: wg0
   private key: (hidden)
   listening port: 51820
 ```
+
+### BIND issues
+
+If there are issues with the BIND server not starting properly you can execute
+the container interactively and run the service in debug mode with the following
+commands:
+
+```bash
+# Run the BIND server container interactively for debugging purposes
+# The mounted volumes ensure the container has access to the necessary configuration files, cache, libraries, and logs
+docker run --rm -it --entrypoint /bin/sh \
+  -v /mnt/user/appdata/bind/etc:/etc/bind \
+  -v /mnt/user/appdata/bind/cache/bind:/var/cache/bind \
+  -v /mnt/user/appdata/bind/lib/bind:/var/lib/bind \
+  -v /mnt/user/appdata/bind/var/log:/var/log \
+  internetsystemsconsortium/bind9:9.18
+
+# Run the following command inside the container to start the BIND service in debug mode, which provides detailed logs for troubleshooting issues
+/usr/sbin/named -u bind -g
+```
