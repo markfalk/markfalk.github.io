@@ -42,3 +42,13 @@ stalwart:
   label: stalwart
   permalink: /stalwart
   description: Stalwart tag description
+
+unraid:
+  label: unraid
+  permalink: /unraid
+  description: Unraid tag description
+
+giscus:
+  label: giscus
+  permalink: /giscus
+  description: Giscus tag description

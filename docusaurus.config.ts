@@ -66,6 +66,14 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          remarkPlugins: [
+            [
+              require('@docusaurus/remark-plugin-npm2yarn'),
+              {converters: ['yarn'],
+                sync: true,
+              },
+            ],
+          ],
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -162,7 +170,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-      additionalLanguages: ['bash'],
+      additionalLanguages: ['bash', 'typescript'],
     },
     colorMode: {
       defaultMode: 'dark',
