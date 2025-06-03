@@ -61,10 +61,11 @@ $TTL 3600       ; 1 hour
 :::
 
 :::warning
-I ran into the following issue when I was building this document, but not when I built my original
+#### Self IP Block Issue
+I ran into the [following issue](https://github.com/stalwartlabs/stalwart/issues/1383#issuecomment-2781973468) when I was building this document, but not when I built my original
 installation. I was using Safari and could not load the Login page.
 
-If you run into an issue where the Login page won't load and the logfile shows:
+If you run into an issue where the Login page won't load and the logfile has entries with the remoteIP as the static reverse proxy public IP:
 
 ```txt title="/mnt/user/appdata/stalwart-data/logs/stalwart.log.YYY-MM-DD"
 2025-03-20T21:43:36Z INFO Blocked IP address (security.ip-blocked) listenerId = "https", localPort = 443, remoteIp = ###.###.###.###, remotePort = 53085
@@ -73,11 +74,11 @@ If you run into an issue where the Login page won't load and the logfile shows:
 2025-03-20T21:44:14Z INFO Blocked IP address (security.ip-blocked) listenerId = "https", localPort = 443, remoteIp = ###.###.###.###, remotePort = 53090
 ```
 
-You can follow these steps:
+You can follow these steps to unblock the IP and prevent it from getting added:
 
 1. Remove the IP from the block list
-   1. From a console in the container, either obtained from the Unraid docker UI or executing `docker exec -it stalwart-mail bash`
-   1. Using the correct PASSWORD run:
+    1. From a console in the container, either obtained from the Unraid docker UI or executing `docker exec -it stalwart-mail bash`
+    1. Using the correct PASSWORD run:
 
         ```bash
         apt-get update && apt-get -y install curl
@@ -88,10 +89,9 @@ You can follow these steps:
         ```
 
 1. Stop the `stalwart-mail` docker container.
-1. Add the following line to `/mnt/user/appdata/stalwart-data/etc/
-    config.toml` where `###.###.###.###` is the blocked IP your trying to access the console from.
+1. Add the following line to `/mnt/user/appdata/stalwart-data/etc/config.toml` where `###.###.###.###` is the blocked IP your trying to access the console from or the public reverse proxy IP.
 
-    ```toml
+    ```toml title="config.toml"
     server.allowed-ip.###.###.###.### = ""
     ```
 
