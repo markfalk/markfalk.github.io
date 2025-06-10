@@ -3,6 +3,14 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+.navbar-rss-link::after {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  content: '\f09e'; /* Unicode for RSS icon */
+  margin-left: 0.4em;
+}
 
  :root {
   --ifm-color-primary: #2563eb; /* blue-600 */

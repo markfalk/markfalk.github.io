@@ -162,6 +162,16 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/markfalk/',
             },
+            {
+              label: 'GitHub - This Site',
+              href: 'https://github.com/markfalk/markfalk.github.io',
+            },
+            {
+              label: 'RSS',
+              href: '/blog/rss.xml',
+              position: 'right',
+              className: 'navbar-rss-link',
+            },
           ],
         },
       ],

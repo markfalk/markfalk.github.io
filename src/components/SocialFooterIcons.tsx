@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiGithub, SiDiscord, SiBluesky, SiLinkedin } from 'react-icons/si';
+import { SiGithub, SiDiscord, SiBluesky, SiLinkedin, SiRss } from 'react-icons/si';
 
 const SocialFooterIcons = () => {
   const iconSize = 24;
@@ -17,6 +17,9 @@ const SocialFooterIcons = () => {
       </a> */}
       <a href="https://discordapp.com/users/347643866091880449" target="_blank" rel="noopener noreferrer" title="Twitter">
         <SiDiscord size={iconSize} />
+      </a>
+      <a href="/blog/rss.xml" target="_blank" rel="noopener noreferrer" title="RSS">
+        <SiRss size={iconSize} />
       </a>
     </div>
   );
