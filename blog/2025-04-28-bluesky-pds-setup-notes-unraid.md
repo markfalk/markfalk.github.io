@@ -47,7 +47,13 @@ networks:
 ### SWAG
 Setting it up to use [SWAG](https://github.com/linuxserver/docker-swag) (NGINX Proxy Manager alternative)
 
+Note I also added an additional domain `testuser1.markfalk.com` which is required to enable additional PDS accounts if you are not using a wildcard DNS entry for the base domain. I serve other services on this domain as well and don't want to use a wildcard.
+
 ```txt title="/mnt/user/appdata/swag/nginx/site-confs/markfalk.com.conf"
+server {
+  ...
+    server_name testuser1.markfalk.com markfalk.com;
+
     location /xrpc {
         proxy_pass http://pds:3000;
         proxy_set_header X-Forwarded-Proto https;
@@ -61,6 +67,7 @@ Setting it up to use [SWAG](https://github.com/linuxserver/docker-swag) (NGINX P
         proxy_pass http://pds:3000/.well-known/atproto-did;
         proxy_set_header Host            $host;
     }
+}
 ```
 
 ### Generating the pds.env file
@@ -98,7 +105,8 @@ Enter your public DNS address (e.g. example.com): markfalk.com
 Enter an admin email address (e.g. you@example.com): mark@markfalk.com
 ```
 
-Which generates the following `pds.env` file:
+Which generates a `pds.env` file. I modified the `PDS_BLOBSTORE_DISK_LOCATION` to point under `/pds` so that it
+will be written to the docker container's `/pds` mapped volume.:
 
 ```txt title="/mnt/user/appdata/pds/pds.env"
 PDS_HOSTNAME=markfalk.com
@@ -106,7 +114,7 @@ PDS_JWT_SECRET=<secret>
 PDS_ADMIN_PASSWORD=<password>
 PDS_PLC_ROTATION_KEY_K256_PRIVATE_KEY_HEX=<private key>
 PDS_DATA_DIRECTORY=/pds
-PDS_BLOBSTORE_DISK_LOCATION=/tmp/blocks
+PDS_BLOBSTORE_DISK_LOCATION=/pds/blocks
 PDS_BLOB_UPLOAD_LIMIT=52428800
 PDS_DID_PLC_URL=https://plc.directory
 PDS_BSKY_APP_VIEW_URL=https://api.bsky.app

@@ -168,7 +168,7 @@ const config: Config = {
             },
             {
               label: 'RSS',
-              href: '/blog/rss.xml',
+              href: 'https://markfalk.github.io/blog/rss.xml',
               position: 'right',
               className: 'navbar-rss-link',
             },
